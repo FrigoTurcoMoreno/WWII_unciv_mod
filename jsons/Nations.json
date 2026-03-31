@@ -24,8 +24,8 @@
     "declaringWar": "Spezzeremo le reni ai nostri nemici! Avanti!",
     "attacked": "Osate sfidare la gloria di Roma? Pagherete caro.",
     "defeated": "La storia ci giudicherà, ma il popolo ha scelto il suo destino.",
-    "outerColor": [0,140,69],
-    "innerColor": [255,255,255],
+    "outerColor": [255,255,255],
+    "innerColor": [20,20,20],
     "unique": "Mare Nostrum",
     "cities": ["Roma", "Milano", "Napoli", "Torino", "Genova", "Palermo", "Firenze", "Venezia"]
   },
