@@ -32,3 +32,10 @@ NationIcons/Stati Uniti
   orig: 100, 65
   offset: 0, 0
   index: -1
+NationIcons/Italia
+  rotate: false
+  xy: 420, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
