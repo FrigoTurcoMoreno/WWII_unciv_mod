@@ -39,8 +39,8 @@
     "declaringWar": "Per l'Imperatore! Il vento divino soffia contro di voi.",
     "attacked": "Il coraggio dei nostri samurai non conosce limiti. Combatteremo fino alla fine.",
     "defeated": "Abbiamo sopportato l'insopportabile. La pace è necessaria.",
-    "outerColor": [188,0,45],
-    "innerColor": [255,255,255],
+    "outerColor": [255,255,255],
+    "innerColor": [188,0,45],
     "unique": "Bushido",
     "cities": ["Tokyo", "Kyoto", "Osaka", "Nagoya", "Hiroshima", "Nagasaki", "Sapporo", "Yokohama"]
   },

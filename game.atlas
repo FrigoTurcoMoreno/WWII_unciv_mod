@@ -14,8 +14,8 @@ NationIcons/Germania
 NationIcons/Giappone
   rotate: false
   xy: 108, 4
-  size: 100, 100
-  orig: 100, 100
+  size: 100, 71
+  orig: 100, 71
   offset: 0, 0
   index: -1
 NationIcons/Unione Sovietica
@@ -23,5 +23,12 @@ NationIcons/Unione Sovietica
   xy: 212, 4
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Stati Uniti
+  rotate: false
+  xy: 316, 4
+  size: 100, 65
+  orig: 100, 65
   offset: 0, 0
   index: -1
