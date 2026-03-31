@@ -9,8 +9,8 @@
     "declaringWar": "Lo spazio vitale è una necessità. Preparatevi alla difesa!",
     "attacked": "Avete commesso un errore fatale. La nostra macchina bellica vi schiaccerà.",
     "defeated": "Tutto è perduto... il crepuscolo è giunto.",
-    "outerColor": [20,20,20],
-    "innerColor": [255,0,0],
+    "outerColor": [255,0,0],
+    "innerColor": [20,20,20],
     "unique": "Blitzkrieg",
     "cities": ["Berlino", "Monaco", "Amburgo", "Colonia", "Francoforte", "Essen", "Stoccarda", "Danzica"]
   },
