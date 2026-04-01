@@ -177,6 +177,7 @@
     "outerColor": [186, 12, 47],
     "innerColor": [0, 32, 91],
     "uniques": [
+      "Custom icon colors",
       "All newly-trained [Melee] units [in all cities] receive the [Amphibious] promotion",
       "[+15]% Strength <for [Water] units>"
     ],
