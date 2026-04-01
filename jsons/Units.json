@@ -6,7 +6,7 @@
     "replaces": "Tank",
     "movement": 5,
     "strength": 75,
-    "uniques": ["Can move after attacking", "Double movement in [Plains] tiles"]
+    "uniques": ["Can move after attacking", "Double movement in [Plains]"]
   },
   {
     "name": "Decima MAS",
@@ -44,7 +44,7 @@
     "unitType": "Melee",
     "uniqueTo": "Francia",
     "replaces": "Anti-Tank Gun",
-    "uniques": ["[+50]% Strength <vs [Land] units>", "[+15]% Strength <when fighting in [Forest] tiles>"]
+    "uniques": ["[+50]% Strength <vs [Land] units>", "[+15]% Strength <when fighting in [Forest]>"]
   },
   {
     "name": "Sabotatore",
@@ -52,7 +52,7 @@
     "uniqueTo": "Norvegia",
     "replaces": "Paratrooper",
     "uniques": [
-        "Can paradrop up to [10] tiles", 
+        "Can paradrop [10] tiles", 
         "[+50]% Strength <vs [Land] units>", 
         "Invisible to non-adjacent units"
     ]
@@ -63,9 +63,9 @@
     "uniqueTo": "Finlandia",
     "replaces": "Infantry",
     "uniques": [
-        "Invisible to non-adjacent units <when fighting in [Forest] tiles>", 
-        "Invisible to non-adjacent units <when fighting in [Snow] tiles>", 
-        "[+25]% Strength <when fighting in [Snow] tiles>"
+        "Invisible to non-adjacent units <when fighting in [Forest]>", 
+        "Invisible to non-adjacent units <when fighting in [Snow]>", 
+        "[+25]% Strength <when fighting in [Snow]>"
     ]
   }
 ]
