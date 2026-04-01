@@ -31,8 +31,8 @@
     "innerColor": [20, 20, 20],
     "uniques": [
       "[+1] Movement <for [Water] units>",
-      "+2 [Gold] <in coastal cities> <excluding the capital>",
-      "[+15]% Strength <when fighting on [Coast] tiles> <for [Water] units>"
+      "[+2 Gold] [in all coastal cities]",
+      "[+15]% Strength <when fighting in [Coast] tiles> <for [Water] units>"
     ],
     "cities": ["Roma", "Milano", "Napoli", "Torino", "Genova", "Palermo", "Firenze", "Venezia", "Tripoli", "Rodi"]
   },
@@ -50,7 +50,7 @@
     "innerColor": [188, 0, 45],
     "uniques": [
       "Units fight at full strength even when damaged",
-      "Earn [10] [Culture] from each enemy unit killed"
+      "[+10 Culture] from each [defeated] enemy"
     ],
     "cities": ["Tokyo", "Kyoto", "Osaka", "Nagoya", "Hiroshima", "Nagasaki", "Sapporo", "Yokohama"]
   },
@@ -68,8 +68,7 @@
     "innerColor": [255, 215, 0],
     "uniques": [
       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-      "Unit supply cost reduced by [25]%",
-      "[+15]% Production <when constructing [Military] units>"
+      "[+15]% Production when constructing [Military] units [in all cities]"
     ],
     "cities": ["Mosca", "Stalingrado", "Leningrado", "Kiev", "Minsk", "Sebastopoli", "Kharkiv", "Vladivostok"]
   },
@@ -86,9 +85,9 @@
     "outerColor": [0, 35, 102],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+15]% Production <in all cities>",
-      "[+20]% Production <when constructing [Air] units>",
-      "[+20]% Production <when constructing [Water] units>"
+      "[+15]% Production when constructing [All] units [in all cities]",
+      "[+20]% Production when constructing [Air] units [in all cities]",
+      "[+20]% Production when constructing [Water] units [in all cities]"
     ],
     "cities": ["Washington", "New York", "Chicago", "Los Angeles", "San Francisco", "Boston", "Philadelphia"]
   },
@@ -105,9 +104,9 @@
     "outerColor": [3, 30, 91],
     "innerColor": [208, 51, 77],
     "uniques": [
-      "Gain [2] [Gold] for each Trade Route with a City-State",
+      "[+2 Gold] from each Trade Route",
       "[+2] Sight <for [Water] units>",
-      "[+50]% Influence gained from [Gold] gifts to City-States"
+      "Gifts of Gold to City-States generate [+50]% more Influence"
     ],
     "cities": ["Londra", "Manchester", "Birmingham", "Liverpool", "Glasgow", "Cardiff", "Belfast", "Sheffield"]
   },
@@ -124,8 +123,8 @@
     "outerColor": [0, 85, 164],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+20]% Strength <when below [100] HP>",
-      "All newly-trained [Melee] units receive the [Shock I] promotion"
+      "[+20]% Strength <when below [50] HP>",
+      "All newly-trained [Melee] units [in all cities] receive the [Shock I] promotion"
     ],
     "cities": ["Parigi", "Lione", "Marsiglia", "Bordeaux", "Lilla", "Tolosa", "Strasburgo", "Nantes"]
   },
@@ -142,8 +141,8 @@
     "outerColor": [220, 20, 60],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+25]% Strength <when attacking> <for [Land melee] units>",
-      "[+15]% Strength <when fighting on [Plains] tiles>"
+      "[+25]% Strength <when attacking> <for [Land] units>",
+      "[+15]% Strength <when fighting in [Plains] tiles>"
     ],
     "cities": ["Varsavia", "Cracovia", "Lodz", "Breslavia", "Poznań", "Lublino"]
   },
@@ -179,7 +178,7 @@
     "innerColor": [3, 29, 76],
     "uniques": [
       "Enemy Spy effectiveness reduced by [25]%",
-      "All newly-trained [Melee] units receive the [Amphibious] promotion"
+      "All newly-trained [Melee] units [in all cities] receive the [Amphibious] promotion"
     ],
     "cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Narvik", "Tromsø", "Kristiansand"]
   },
@@ -196,9 +195,9 @@
     "outerColor": [0, 53, 128],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+25]% Strength <when fighting on [Snow] tiles>",
-      "[+25]% Strength <when fighting on [Tundra] tiles>",
-      "Friendly units heal [+5] HP per turn <when in [Friendly Land] tiles>"
+      "[+25]% Strength <when fighting in [Snow] tiles>",
+      "[+25]% Strength <when fighting in [Tundra] tiles>",
+      "Heal [5] HP when in [Friendly Land] tiles at the end of your turn"
     ],
     "cities": ["Helsinki", "Espoo", "Tampere", "Turku", "Oulu", "Rovaniemi", "Viipuri"]
   }
