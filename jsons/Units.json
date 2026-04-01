@@ -6,8 +6,7 @@
     "replaces": "Tank",
     "movement": 5,
     "strength": 75,
-    "cost": 350,
-    "uniques": ["Can move after attacking", "Double movement in [Plains]"]
+    "uniques": ["Can move after attacking", "Double movement in [Plains] tiles"]
   },
   {
     "name": "Decima MAS",
@@ -22,74 +21,51 @@
         "Invisibility to all units", 
         "Can see [Invisibility to all units] units",
         "[+50]% Strength <vs [Water] units>",
-        "[80]% chance to withdraw from melee combat",
+        "Withdraws before melee combat",
         "May enter Ice tiles"
     ]
-  },
-  {
-    "name": "T-34",
-    "unitType": "Melee",
-    "uniqueTo": "Unione Sovietica",
-    "replaces": "Tank",
-    "movement": 4,
-    "strength": 70,
-    "cost": 220,
-    "uniques": ["Can move after attacking", "[+15]% Strength <when fighting in [Friendly Land] tiles>"]
   },
   {
     "name": "B-17 Flying Fortress",
     "unitType": "Bomber",
     "uniqueTo": "Stati Uniti",
     "replaces": "Bomber",
-    "uniques": ["[+50]% Strength <vs [City] units>", "Evasion [50]"]
+    "uniques": ["[+50]% Strength <vs cities>"]
   },
   {
     "name": "Supermarine Spitfire",
     "unitType": "Fighter",
-    "uniqueTo": "Regno Unito",
+    "uniqueTo": "Inghilterra",
     "replaces": "Fighter",
-    "uniques": ["[+25]% Strength <when defending>", "[+50]% Strength <vs [Bomber] units>"]
+    "uniques": ["+[25]% Strength when defending", "[+50]% Strength <vs [Fighter] units>"]
   },
   {
     "name": "Cacciatore di Carri",
     "unitType": "Melee",
     "uniqueTo": "Francia",
     "replaces": "Anti-Tank Gun",
-    "uniques": ["[+50]% Strength <vs [Armored] units>", "[+15]% Strength <in [Forest] tiles>"]
-  },
-  {
-    "name": "Zero",
-    "unitType": "Fighter",
-    "uniqueTo": "Giappone",
-    "replaces": "Fighter",
-    "uniques": ["[+100]% Strength <vs [Water] units>", "Can move after attacking"]
-  },
-  {
-    "name": "Ulanos",
-    "unitType": "Mounted",
-    "uniqueTo": "Polonia",
-    "replaces": "Cavalry",
-    "uniques": ["Can move after attacking", "[+25]% Strength <when attacking> <in [Open terrain] tiles>"]
-  },
-  {
-    "name": "Division Azul",
-    "unitType": "Melee",
-    "uniqueTo": "Spagna",
-    "replaces": "Infantry",
-    "uniques": ["All terrain costs 1 move <in [Snow] tiles>", "[+20]% Strength <in [Snow] tiles>"]
+    "uniques": ["[+50]% Strength <vs [Land] units>", "[+15]% Strength <when fighting in [Forest] tiles>"]
   },
   {
     "name": "Sabotatore",
     "unitType": "Melee",
     "uniqueTo": "Norvegia",
     "replaces": "Paratrooper",
-    "uniques": ["Can paradrop up to [10] tiles", "[+50]% Strength <vs [Armored] units>", "Invisible to non-adjacent units"]
+    "uniques": [
+        "Can paradrop up to [10] tiles", 
+        "[+50]% Strength <vs [Land] units>", 
+        "Invisible to non-adjacent units"
+    ]
   },
   {
     "name": "Cecchino Sisu",
     "unitType": "Archery",
     "uniqueTo": "Finlandia",
     "replaces": "Infantry",
-    "uniques": ["Invisible to non-adjacent units <in [Forest] tiles>", "Invisible to non-adjacent units <in [Snow] tiles>", "[+25]% Strength <in [Snow] tiles>"]
+    "uniques": [
+        "Invisible to non-adjacent units <when fighting in [Forest] tiles>", 
+        "Invisible to non-adjacent units <when fighting in [Snow] tiles>", 
+        "[+25]% Strength <when fighting in [Snow] tiles>"
+    ]
   }
 ]
