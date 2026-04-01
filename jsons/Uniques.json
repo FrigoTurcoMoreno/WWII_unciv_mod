@@ -1,85 +1,165 @@
 [
   {
-    "name": "Blitzkrieg",
-    "uniques": [
-      "[+1] Movement",
-      "[+15]% Strength <when attacking>"
-    ]
+    "name": "Panzer IV",
+    "unitType": "Melee",
+    "uniqueTo": "Germania",
+    "replaces": "Tank",
+    "movement": 5,
+    "strength": 75,
+    "cost": 350,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": ["Can move after attacking", "Double movement in [Plains]"],
+    "attackSound": "tankshot"
   },
   {
-    "name": "Mare Nostrum",
+    "name": "Decima MAS",
+    "unitType": "Submarine",
+    "uniqueTo": "Italia",
+    "replaces": "Submarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 70,
+    "range": 1,
+    "cost": 320,
+    "requiredTech": "Electricity",
+    "requiredResource": "Oil",
     "uniques": [
-      "[+1] Movement <for [Water] units>",
-      "[+2] Gold <in coastal cities>",
-      "[+15]% Strength <when fighting in [Coast] tiles> <for [Water] units>"
-    ]
+        "Invisibility to all units", 
+        "Can see [Invisibility to all units] units",
+        "[+50]% Strength <vs [Water] units>",
+        "[80]% chance to withdraw from melee combat",
+        "May enter Ice tiles"
+    ],
+    "attackSound": "torpedo"
   },
   {
-    "name": "Bushido",
-    "uniques": [
-      "Units fight at full strength even when damaged",
-      "Earn [10] [Culture] from losing [Enemy] units"
-    ]
+    "name": "T-34",
+    "unitType": "Melee",
+    "uniqueTo": "Unione Sovietica",
+    "replaces": "Tank",
+    "movement": 4,
+    "strength": 70,
+    "cost": 220,
+    "requiredTech": "Combustion",
+    "requiredResource": "Oil",
+    "uniques": ["Can move after attacking", "[+15]% Strength <when fighting in [Friendly Land] tiles>"],
+    "attackSound": "tankshot"
   },
   {
-    "name": "Great Patriotic War",
-    "uniques": [
-      "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-      "[-25]% Unit Supply cost",
-      "[+15]% Production <when constructing [Land] units>"
-    ]
+    "name": "B-17 Flying Fortress",
+    "unitType": "Bomber",
+    "uniqueTo": "Stati Uniti",
+    "replaces": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 80,
+    "range": 12,
+    "cost": 400,
+    "requiredTech": "Radar",
+    "requiredResource": "Oil",
+    "uniques": ["[+50]% Strength <vs [City] units>", "Evasion [50]"],
+    "attackSound": "bombing"
   },
   {
-    "name": "Industrial Might",
-    "uniques": [
-      "[+15]% Production",
-      "[+20]% Production <when constructing [Air] units>",
-      "[+20]% Production <when constructing [Water] units>"
-    ]
+    "name": "Supermarine Spitfire",
+    "unitType": "Fighter",
+    "uniqueTo": "Regno Unito",
+    "replaces": "Fighter",
+    "movement": 1,
+    "strength": 55,
+    "rangedStrength": 55,
+    "range": 10,
+    "cost": 350,
+    "requiredTech": "Radar",
+    "requiredResource": "Oil",
+    "uniques": ["[+25]% Strength <when defending>", "[+50]% Strength <vs [Bomber] units>"],
+    "attackSound": "machinegun"
   },
   {
-    "name": "Vittoria ad ogni costo",
-    "uniques": [
-      "[+2] Gold from City-State trade routes",
-      "[+2] Sight <for [Water] units>",
-      "[+50]% Influence gained from Gold gifts to City-States"
-    ]
+    "name": "Cacciatore di Carri",
+    "unitType": "Melee",
+    "uniqueTo": "Francia",
+    "replaces": "Anti-Tank Gun",
+    "movement": 2,
+    "strength": 60,
+    "cost": 280,
+    "requiredTech": "Replaceable Parts",
+    "uniques": ["[+50]% Strength <vs [Armored] units>", "[+15]% Strength <when fighting in [Forest] tiles>"],
+    "attackSound": "tankshot"
   },
   {
-    "name": "La Résistance",
-    "uniques": [
-      "[+20]% Strength <vs [All] units> <when below [100]% HP>",
-      "All newly-trained [Infantry] units receive the [Partisan] promotion"
-    ]
+    "name": "Zero",
+    "unitType": "Fighter",
+    "uniqueTo": "Giappone",
+    "replaces": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 14,
+    "cost": 320,
+    "requiredTech": "Radar",
+    "requiredResource": "Oil",
+    "uniques": ["[+100]% Strength <vs [Water] units>", "Can move after attacking"],
+    "attackSound": "machinegun"
   },
   {
-    "name": "Winged Guard",
-    "uniques": [
-      "[+25]% Strength <when attacking> <for [Mounted] units>",
-      "[+15]% Strength <when fighting in [Plains] tiles>"
-    ]
+    "name": "Ulanos",
+    "unitType": "Mounted",
+    "uniqueTo": "Polonia",
+    "replaces": "Cavalry",
+    "movement": 5,
+    "strength": 42,
+    "cost": 220,
+    "requiredTech": "Military Science",
+    "requiredResource": "Horses",
+    "uniques": ["Can move after attacking", "[+25]% Strength <when attacking> <in [Open terrain] tiles>"],
+    "attackSound": "horse"
   },
   {
-    "name": "Blue Division",
-    "uniques": [
-      "[+10]% Strength <when fighting in [Foreign Land] tiles>",
-      "Can spend Gold to gift units to City-States"
-    ]
+    "name": "Division Azul",
+    "unitType": "Melee",
+    "uniqueTo": "Spagna",
+    "replaces": "Infantry",
+    "movement": 2,
+    "strength": 75,
+    "cost": 320,
+    "requiredTech": "Replaceable Parts",
+    "uniques": ["All terrain costs 1 move <in [Snow] tiles>", "[+20]% Strength <when fighting in [Snow] tiles>"],
+    "attackSound": "rifle"
   },
   {
-    "name": "Heavy Water Sabotage",
+    "name": "Sabotatore",
+    "unitType": "Melee",
+    "uniqueTo": "Norvegia",
+    "replaces": "Paratrooper",
+    "movement": 2,
+    "strength": 65,
+    "cost": 350,
+    "requiredTech": "Radar",
     "uniques": [
-      "Enemy Spies are [25]% less effective in this city",
-      "All [Melee] units receive the [Amphibious] promotion",
-      "All [Gunpowder] units receive the [Amphibious] promotion"
-    ]
+        "Can paradrop up to [10] tiles", 
+        "[+50]% Strength <vs [Armored] units>", 
+        "Invisible to non-adjacent units"
+    ],
+    "attackSound": "explosion"
   },
   {
-    "name": "Sisu",
+    "name": "Cecchino Sisu",
+    "unitType": "Archery",
+    "uniqueTo": "Finlandia",
+    "replaces": "Infantry",
+    "movement": 3,
+    "strength": 50,
+    "rangedStrength": 70,
+    "range": 2,
+    "cost": 330,
+    "requiredTech": "Replaceable Parts",
     "uniques": [
-      "[+25]% Strength <when fighting in [Snow] tiles>",
-      "[+25]% Strength <when fighting in [Tundra] tiles>",
-      "Friendly units heal [+5] HP per turn <in [Friendly Land] tiles>"
-    ]
+        "Invisible to non-adjacent units <in [Forest] tiles>", 
+        "Invisible to non-adjacent units <in [Snow] tiles>", 
+        "[+25]% Strength <when fighting in [Snow] tiles>"
+    ],
+    "attackSound": "sniper"
   }
 ]
