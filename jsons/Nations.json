@@ -31,8 +31,8 @@
     "innerColor": [20, 20, 20],
     "uniques": [
       "[+1] Movement <for [Water] units>",
-      "[+2] [Gold] <in cities besides the capital> <if the city is coastal>",
-      "[+15]% Strength <when fighting in [Coast] tiles> <for [Water] units>"
+      "+2 [Gold] <in coastal cities> <excluding the capital>",
+      "[+15]% Strength <when fighting on [Coast] tiles> <for [Water] units>"
     ],
     "cities": ["Roma", "Milano", "Napoli", "Torino", "Genova", "Palermo", "Firenze", "Venezia", "Tripoli", "Rodi"]
   },
@@ -50,7 +50,7 @@
     "innerColor": [188, 0, 45],
     "uniques": [
       "Units fight at full strength even when damaged",
-      "Earn [10] [Culture] from losing [Enemy] units"
+      "Earn [10] [Culture] from each enemy unit killed"
     ],
     "cities": ["Tokyo", "Kyoto", "Osaka", "Nagoya", "Hiroshima", "Nagasaki", "Sapporo", "Yokohama"]
   },
@@ -68,8 +68,8 @@
     "innerColor": [255, 215, 0],
     "uniques": [
       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-      "[-25]% Unit supply cost",
-      "[+15]% Production <when constructing [Land] units>"
+      "Unit supply cost reduced by [25]%",
+      "[+15]% Production <when constructing [Military] units>"
     ],
     "cities": ["Mosca", "Stalingrado", "Leningrado", "Kiev", "Minsk", "Sebastopoli", "Kharkiv", "Vladivostok"]
   },
@@ -105,7 +105,7 @@
     "outerColor": [3, 30, 91],
     "innerColor": [208, 51, 77],
     "uniques": [
-      "[+2] [Gold] from City-State trade routes",
+      "Gain [2] [Gold] for each Trade Route with a City-State",
       "[+2] Sight <for [Water] units>",
       "[+50]% Influence gained from [Gold] gifts to City-States"
     ],
@@ -142,8 +142,8 @@
     "outerColor": [220, 20, 60],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+25]% Strength <when attacking> <for [Mounted] units>",
-      "[+15]% Strength <when fighting in [Plains] tiles>"
+      "[+25]% Strength <when attacking> <for [Land melee] units>",
+      "[+15]% Strength <when fighting on [Plains] tiles>"
     ],
     "cities": ["Varsavia", "Cracovia", "Lodz", "Breslavia", "Poznań", "Lublino"]
   },
@@ -178,8 +178,8 @@
     "outerColor": [199, 60, 88],
     "innerColor": [3, 29, 76],
     "uniques": [
-      "Enemy Spies are [25]% less effective in this city",
-      "All [Melee] units receive the [Amphibious] promotion"
+      "Enemy Spy effectiveness reduced by [25]%",
+      "All newly-trained [Melee] units receive the [Amphibious] promotion"
     ],
     "cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Narvik", "Tromsø", "Kristiansand"]
   },
@@ -196,8 +196,8 @@
     "outerColor": [0, 53, 128],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+25]% Strength <when fighting in [Snow] tiles>",
-      "[+25]% Strength <when fighting in [Tundra] tiles>",
+      "[+25]% Strength <when fighting on [Snow] tiles>",
+      "[+25]% Strength <when fighting on [Tundra] tiles>",
       "Friendly units heal [+5] HP per turn <when in [Friendly Land] tiles>"
     ],
     "cities": ["Helsinki", "Espoo", "Tampere", "Turku", "Oulu", "Rovaniemi", "Viipuri"]

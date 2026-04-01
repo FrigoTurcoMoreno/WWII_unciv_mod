@@ -13,13 +13,9 @@
     "unitType": "Submarine",
     "uniqueTo": "Italia",
     "replaces": "Submarine",
-    "movement": 6,
-    "strength": 40,
-    "rangedStrength": 70,
-    "range": 1,
     "uniques": [
         "Invisibility to all units", 
-        "Can see [Invisibility to all units] units",
+        "Can see invisible units",
         "[+50]% Strength <vs [Water] units>",
         "Withdraws before melee combat",
         "May enter Ice tiles"
@@ -37,14 +33,14 @@
     "unitType": "Fighter",
     "uniqueTo": "Inghilterra",
     "replaces": "Fighter",
-    "uniques": ["+[25]% Strength when defending", "[+50]% Strength <vs [Fighter] units>"]
+    "uniques": ["+[25]% Strength when defending", "[+50]% Strength <vs [Air] units>"]
   },
   {
     "name": "Cacciatore di Carri",
     "unitType": "Melee",
     "uniqueTo": "Francia",
     "replaces": "Anti-Tank Gun",
-    "uniques": ["[+50]% Strength <vs [Tank] units>", "[+15]% Strength <when fighting in [Forest] tiles>"]
+    "uniques": ["[+50]% Strength <vs [Land] units>", "[+15]% Strength <when fighting in [Forest] tiles>"]
   },
   {
     "name": "Sabotatore",
@@ -53,7 +49,7 @@
     "replaces": "Paratrooper",
     "uniques": [
         "Can paradrop [10] tiles", 
-        "[+50]% Strength <vs [Tank] units>", 
+        "[+50]% Strength <vs [Land] units>", 
         "Invisible to non-adjacent units"
     ]
   },
