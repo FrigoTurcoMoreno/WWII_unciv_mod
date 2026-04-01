@@ -31,7 +31,7 @@
     "innerColor": [20, 20, 20],
     "uniques": [
       "[+1] Movement <for [Water] units>",
-      "[+2] Gold <in cities besides the capital> <if the city is coastal>",
+      "[+2] [Gold] <in cities besides the capital> <if the city is coastal>",
       "[+15]% Strength <when fighting in [Coast] tiles> <for [Water] units>"
     ],
     "cities": ["Roma", "Milano", "Napoli", "Torino", "Genova", "Palermo", "Firenze", "Venezia", "Tripoli", "Rodi"]
@@ -68,7 +68,7 @@
     "innerColor": [255, 215, 0],
     "uniques": [
       "[+20]% Strength <when fighting in [Friendly Land] tiles>",
-      "Unit supply cost reduced by [25]%",
+      "[-25]% Unit supply cost",
       "[+15]% Production <when constructing [Land] units>"
     ],
     "cities": ["Mosca", "Stalingrado", "Leningrado", "Kiev", "Minsk", "Sebastopoli", "Kharkiv", "Vladivostok"]
@@ -102,12 +102,12 @@
     "declaringWar": "Combatteremo sui mari, sugli oceani e nell'aria. Non ci arrenderemo mai.",
     "attacked": "Mai così tanti dovettero così tanto a così pochi.",
     "defeated": "Questa non è la fine, ma forse è la fine dell'inizio.",
-    "outerColor": [1, 33, 105],
-    "innerColor": [200, 16, 46],
+    "outerColor": [3, 30, 91],
+    "innerColor": [208, 51, 77],
     "uniques": [
-      "[+2] Gold from City-State trade routes",
+      "[+2] [Gold] from City-State trade routes",
       "[+2] Sight <for [Water] units>",
-      "[+50]% Influence gained from Gold gifts to City-States"
+      "[+50]% Influence gained from [Gold] gifts to City-States"
     ],
     "cities": ["Londra", "Manchester", "Birmingham", "Liverpool", "Glasgow", "Cardiff", "Belfast", "Sheffield"]
   },
@@ -124,7 +124,7 @@
     "outerColor": [0, 85, 164],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+20]% Strength <when below [100]% HP>",
+      "[+20]% Strength <when below [100] HP>",
       "All newly-trained [Melee] units receive the [Shock I] promotion"
     ],
     "cities": ["Parigi", "Lione", "Marsiglia", "Bordeaux", "Lilla", "Tolosa", "Strasburgo", "Nantes"]
@@ -175,8 +175,8 @@
     "declaringWar": "Se la guerra è ciò che cercate, i nostri fiordi diventeranno la vostra tomba.",
     "attacked": "Non ci piegheremo a nessun occupante straniero.",
     "defeated": "Possiamo perdere la terra, ma non la nostra lealtà.",
-    "outerColor": [186, 12, 47],
-    "innerColor": [0, 32, 91],
+    "outerColor": [199, 60, 88],
+    "innerColor": [3, 29, 76],
     "uniques": [
       "Enemy Spies are [25]% less effective in this city",
       "All [Melee] units receive the [Amphibious] promotion"
@@ -192,7 +192,7 @@
     "introduction": "Siamo un popolo piccolo, ma sappiamo come difendere la nostra casa.",
     "declaringWar": "Avete superato il confine. Non tornerete indietro.",
     "attacked": "Uno sisu finlandese vale più di mille soldati nemici.",
-    "defeated": "Abbiamo combattuto con onore contro forze impossibili.",
+    "defeated": "Abbiamo combattuto con onore con forze impossibili.",
     "outerColor": [0, 53, 128],
     "innerColor": [255, 255, 255],
     "uniques": [
