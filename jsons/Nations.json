@@ -48,7 +48,7 @@
     "name": "Unione Sovietica",
     "leaderName": "Iosif Stalin",
     "adjective": ["Sovietico"],
-    "startBias": ["Tundra"],
+    "startBias": ["Tundra", "Forest"],
     "preferredVictoryType": "Domination",
     "introduction": "I lavoratori del mondo non hanno nulla da temere da noi. Voi invece?",
     "declaringWar": "La storia è dalla nostra parte. L'Armata Rossa avanza!",

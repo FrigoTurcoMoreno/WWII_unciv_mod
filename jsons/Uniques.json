@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Blitzkrieg",
+    "uniques": [
+      "Tutte le unità [Armored] ricevono [+1] Movimento",
+      "Tutte le unità [Melee] ricevono [+15]% Forza d'attacco"
+    ]
+  },
+  {
+    "name": "Mare Nostrum",
+    "uniques": [
+      "Tutte le unità [Water] ricevono [+1] Movimento",
+      "Le città costiere ricevono [+2] Oro",
+      "Tutte le unità navali ricevono [+15]% Forza di combattimento quando combattono in caselle [Coast]"
+    ]
+  },
+  {
+    "name": "Bushido",
+    "uniques": [
+      "Le unità combattono con la stessa forza anche se danneggiate",
+      "Ricevi [10] Cultura ogni volta che un'unità nemica viene distrutta"
+    ]
+  },
+  {
+    "name": "Great Patriotic War",
+    "uniques": [
+      "[+20]% Forza di combattimento per le unità che combattono in territorio amico",
+      "Costo di mantenimento delle unità ridotto del [25]%",
+      "La velocità di produzione delle unità [Land] aumenta del [15]%"
+    ]
+  },
+  {
+    "name": "Industrial Might",
+    "uniques": [
+      "[+15]% Produzione in tutte le città",
+      "Le unità [Air] e [Water] costano il [20]% in meno di [Production]"
+    ]
+  },
+  {
+    "name": "Vittoria ad ogni costo",
+    "uniques": [
+      "[+2] Oro dalle rotte commerciali con altre civiltà",
+      "Tutte le unità [Water] ricevono [+2] Linea di vista",
+      "Ricevi il [50]% in più di influenza dalle città-stato"
+    ]
+  },
+  {
+    "name": "La Résistance",
+    "uniques": [
+      "Tutte le unità ricevono [+20]% Forza di combattimento contro civiltà con più città",
+      "Genera una unità [Partisan] (Infantry) quando una città viene catturata dal nemico"
+    ]
+  },
+  {
+    "name": "Winged Guard",
+    "uniques": [
+      "Tutte le unità [Mounted] ricevono [+25]% Forza d'attacco",
+      "Le unità difensive ricevono [+15]% Forza di combattimento in caselle [Plains]"
+    ]
+  },
+  {
+    "name": "Blue Division",
+    "uniques": [
+      "Puoi reclutare unità uniche degli alleati",
+      "[+10]% Forza di combattimento quando combatti fuori dal territorio nazionale"
+    ]
+  },
+  {
+    "name": "Heavy Water Sabotage",
+    "uniques": [
+      "Le spie nemiche sono meno efficaci del [25]%",
+      "Tutte le unità ricevono il bonus 'Sbarco Anfibio' (nessuna penalità attaccando dal mare)",
+      "Le unità nemiche che terminano il turno in territorio [Snow] o [Tundra] norvegese subiscono [10] danni"
+    ]
+  },
+  {
+    "name": "Sisu",
+    "uniques": [
+      "Tutte le unità ricevono [+25]% Forza di combattimento in caselle [Snow] e [Tundra]",
+      "Le unità ferite guariscono [+5] HP extra ogni turno"
+    ]
+  }
+]
