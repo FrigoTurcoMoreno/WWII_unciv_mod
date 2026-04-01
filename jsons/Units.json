@@ -9,8 +9,7 @@
     "strength": 75,
     "uniques": [
       "Can move after attacking",
-      "Double movement in [Grassland]",
-      "Double movement in [Plains]"
+      "Ignores terrain cost"
     ]
   },
   {
