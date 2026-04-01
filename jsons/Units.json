@@ -9,6 +9,7 @@
     "strength": 75,
     "uniques": [
       "Can move after attacking",
+      "Double movement in [Grassland]",
       "Double movement in [Plains]"
     ]
   },
@@ -71,7 +72,7 @@
     "range": 2,
     "uniques": [
       "[+50]% Strength <vs [Land] units>",
-      "[+15]% Strength <when fighting in [Forest] tiles>"
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
     ]
   },
   {
@@ -83,7 +84,7 @@
     "movement": 3,
     "strength": 65,
     "uniques": [
-      "Can paradrop [10] tiles from inside [Friendly Land] tiles",
+      "May Paradrop up to [10] tiles from inside friendly territory",
       "[+50]% Strength <vs [Land] units>",
       "Invisible to non-adjacent units"
     ]
@@ -100,7 +101,7 @@
     "range": 2,
     "uniques": [
       "Invisible to non-adjacent units",
-      "[+25]% Strength <when fighting in [Snow] tiles>"
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
     ]
   }
 ]

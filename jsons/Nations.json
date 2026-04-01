@@ -32,7 +32,7 @@
     "uniques": [
       "[+1] Movement <for [Water] units>",
       "[+2 Gold] [in all coastal cities]",
-      "[+15]% Strength <when fighting in [Coast] tiles> <for [Water] units>"
+      "[+15]% Strength <for [Water] units> <when attacking>"
     ],
     "cities": ["Roma", "Milano", "Napoli", "Torino", "Genova", "Palermo", "Firenze", "Venezia", "Tripoli", "Rodi"]
   },
@@ -50,7 +50,7 @@
     "innerColor": [188, 0, 45],
     "uniques": [
       "Units fight at full strength even when damaged",
-      "[+10 Culture] from each [defeated] enemy"
+      "[+15]% Strength <when attacking>"
     ],
     "cities": ["Tokyo", "Kyoto", "Osaka", "Nagoya", "Hiroshima", "Nagasaki", "Sapporo", "Yokohama"]
   },
@@ -85,9 +85,9 @@
     "outerColor": [0, 35, 102],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+15]% Production when constructing [All] units [in all cities]",
       "[+20]% Production when constructing [Air] units [in all cities]",
-      "[+20]% Production when constructing [Water] units [in all cities]"
+      "[+20]% Production when constructing [Water] units [in all cities]",
+      "[+15]% Production when constructing [Military] units [in all cities]"
     ],
     "cities": ["Washington", "New York", "Chicago", "Los Angeles", "San Francisco", "Boston", "Philadelphia"]
   },
@@ -142,7 +142,7 @@
     "innerColor": [255, 255, 255],
     "uniques": [
       "[+25]% Strength <when attacking> <for [Land] units>",
-      "[+15]% Strength <when fighting in [Plains] tiles>"
+      "[+10]% Strength <for [Melee] units>"
     ],
     "cities": ["Varsavia", "Cracovia", "Lodz", "Breslavia", "Poznań", "Lublino"]
   },
@@ -177,8 +177,8 @@
     "outerColor": [199, 60, 88],
     "innerColor": [3, 29, 76],
     "uniques": [
-      "Enemy Spy effectiveness reduced by [25]%",
-      "All newly-trained [Melee] units [in all cities] receive the [Amphibious] promotion"
+      "All newly-trained [Melee] units [in all cities] receive the [Amphibious] promotion",
+      "[+15]% Strength <for [Water] units>"
     ],
     "cities": ["Oslo", "Bergen", "Trondheim", "Stavanger", "Narvik", "Tromsø", "Kristiansand"]
   },
@@ -195,9 +195,8 @@
     "outerColor": [0, 53, 128],
     "innerColor": [255, 255, 255],
     "uniques": [
-      "[+25]% Strength <when fighting in [Snow] tiles>",
-      "[+25]% Strength <when fighting in [Tundra] tiles>",
-      "Heal [5] HP when in [Friendly Land] tiles at the end of your turn"
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>",
+      "[+20]% Strength <when defending>"
     ],
     "cities": ["Helsinki", "Espoo", "Tampere", "Turku", "Oulu", "Rovaniemi", "Viipuri"]
   }
