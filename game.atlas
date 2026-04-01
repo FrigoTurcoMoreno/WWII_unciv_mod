@@ -39,3 +39,45 @@ NationIcons/Italia
   orig: 100, 100
   offset: 0, 0
   index: -1
+NationIcons/Francia
+  rotate: false
+  xy: 524, 4
+  size: 100, 70
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Spagna
+  rotate: false
+  xy: 628, 4
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Inghilterra
+  rotate: false
+  xy: 732, 4
+  size: 100, 70
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Norvegia
+  rotate: false
+  xy: 836, 4
+  size: 100, 70
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Finlandia
+  rotate: false
+  xy: 4, 108
+  size: 100, 70
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+NationIcons/Polonia
+  rotate: false
+  xy: 108, 108
+  size: 100, 70
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
