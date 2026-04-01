@@ -174,8 +174,8 @@
     "declaringWar": "Se la guerra è ciò che cercate, i nostri fiordi diventeranno la vostra tomba.",
     "attacked": "Non ci piegheremo a nessun occupante straniero.",
     "defeated": "Possiamo perdere la terra, ma non la nostra lealtà.",
-    "outerColor": [199, 60, 88],
-    "innerColor": [3, 29, 76],
+    "outerColor": [186, 12, 47],
+    "innerColor": [0, 32, 91],
     "uniques": [
       "All newly-trained [Melee] units [in all cities] receive the [Amphibious] promotion",
       "[+15]% Strength <for [Water] units>"
