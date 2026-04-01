@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Panzer IV",
+    "unitType": "Melee",
+    "uniqueTo": "Germania",
+    "replaces": "Tank",
+    "movement": 5,
+    "strength": 75,
+    "uniques": ["Can move after attacking", "Double movement in [Plains]"]
+  },
+  {
+    "name": "Decima MAS",
+    "unitType": "Submarine",
+    "uniqueTo": "Italia",
+    "replaces": "Submarine",
+    "movement": 6,
+    "strength": 40,
+    "rangedStrength": 70,
+    "range": 1,
+    "uniques": [
+        "Invisibility to all units", 
+        "Can see [Invisibility to all units] units",
+        "[+50]% Strength <vs [Water] units>",
+        "Withdraws before melee combat [80]% chance",
+        "May enter Ice tiles"
+    ]
+  },
+  {
+    "name": "B-17 Flying Fortress",
+    "unitType": "Bomber",
+    "uniqueTo": "Stati Uniti",
+    "replaces": "Bomber",
+    "uniques": ["[+50]% Strength <vs cities>", "Evasion [50]"]
+  },
+  {
+    "name": "Supermarine Spitfire",
+    "unitType": "Fighter",
+    "uniqueTo": "Inghilterra",
+    "replaces": "Fighter",
+    "uniques": ["+[25]% Strength when defending", "[+50]% Strength <vs [Bomber] units>"]
+  },
+  {
+    "name": "Cacciatore di Carri",
+    "unitType": "Melee",
+    "uniqueTo": "Francia",
+    "replaces": "Anti-Tank Gun",
+    "uniques": ["[+50]% Strength <vs [Tank] units>", "[+15]% Strength <when fighting in [Forest]>"]
+  },
+  {
+    "name": "Sabotatore",
+    "unitType": "Melee",
+    "uniqueTo": "Norvegia",
+    "replaces": "Paratrooper",
+    "uniques": [
+        "Can paradrop up to [10] tiles", 
+        "[+50]% Strength <vs [Tank] units>", 
+        "Invisible to non-adjacent units"
+    ]
+  },
+  {
+    "name": "Cecchino Sisu",
+    "unitType": "Archery",
+    "uniqueTo": "Finlandia",
+    "replaces": "Infantry",
+    "uniques": [
+        "Invisible to non-adjacent units <when in [Forest]>", 
+        "Invisible to non-adjacent units <when in [Snow]>", 
+        "[+25]% Strength <when fighting in [Snow]>"
+    ]
+  }
+]
