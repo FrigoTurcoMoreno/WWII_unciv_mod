@@ -83,7 +83,7 @@
     "movement": 3,
     "strength": 65,
     "uniques": [
-      "May Paradrop to [Terrain] tiles up to [10] away",
+      "May Paradrop to [Terrain] tiles up to [10] tiles away",
       "[+50]% Strength <vs [Land] units>",
       "Invisible to non-adjacent units"
     ]
