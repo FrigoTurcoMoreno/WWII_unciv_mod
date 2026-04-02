@@ -55,7 +55,7 @@
     "range": 1,
     "interceptRange": 6,
     "uniques": [
-      "+[25]% Strength",
+      "[+25]% Strength",
       "[+50]% Strength <vs [Air] units>"
     ]
   },
@@ -83,7 +83,7 @@
     "movement": 3,
     "strength": 65,
     "uniques": [
-      "May Paradrop up to [10] tiles away <in [Friendly]>",
+      "May Paradrop to [Terrain] tiles upm to [10] away",
       "[+50]% Strength <vs [Land] units>",
       "Invisible to non-adjacent units"
     ]
