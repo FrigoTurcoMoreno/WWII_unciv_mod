@@ -50,5 +50,17 @@
     "England",
     "The Netherlands",
     "Aztecs"
+  ],
+  "policyBranchesToRemove": [
+    "Tradition",
+    "Liberty",
+    "Honor",
+    "Piety",
+    "Patronage",
+    "Commerce",
+    "Rationalism",
+    "Freedom",
+    "Autocracy",
+    "Order"
   ]
 }
