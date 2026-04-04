@@ -25,7 +25,7 @@
     "replaces": "Armory",
     "uniqueTo": "Giappone",
     "cost": 150,
-    "uniques": ["New [Land] units start with [15] Experience", "[+10]% Strength for [Land] units"],
+    "uniques": ["New [Land] units start with [15] XP [in all cities]", "[+10]% Strength for [Land] units"],
     "requiredTech": "Steel"
   },
   {
@@ -63,7 +63,7 @@
     "uniqueTo": "Francia",
     "cost": 150,
     "happiness": 2,
-    "uniques": ["Enemy spy effectiveness reduced by [30]%", "[+10]% Strength for [Land] units in [Friendly Land]"],
+    "uniques": ["Enemy spy effectiveness reduced by [30]%", "[+10]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>"],
     "requiredTech": "Banking"
   },
   {
