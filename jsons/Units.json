@@ -130,8 +130,7 @@
     "strength": 70,
     "uniques": [
       "Can move after attacking",
-      "Cost increases by [0]%", 
-      "[+15]% Production when constructing [T-34] units [in all cities]"
+      "Cost increases by [10] per owned city"
     ]
   },
   {
@@ -158,7 +157,7 @@
     "strength": 55,
     "uniques": [
       "[+20]% Strength <when fighting in [Foreign Land] tiles>",
-      "Heals [10] HP if it kills a unit"
+      "Heals [20] damage if it kills a unit"
     ]
   }
 ]
