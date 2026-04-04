@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Cultured",
+    "friendBonusUniques": [
+      "[+3 Culture] [in all cities]"
+    ],
+    "allyBonusUniques": [
+      "[+6 Culture] [in all cities]"
+    ],
+    "color": [180, 130, 255]
+  },
+  {
+    "name": "Maritime",
+    "friendBonusUniques": [
+      "[+2 Food] [in all cities]"
+    ],
+    "allyBonusUniques": [
+      "[+4 Food] [in all cities]",
+      "[+1] Movement <for [Water] units>"
+    ],
+    "color": [80, 180, 255]
+  },
+  {
+    "name": "Mercantile",
+    "friendBonusUniques": [
+      "[+3 Gold] [in all cities]"
+    ],
+    "allyBonusUniques": [
+      "[+6 Gold] [in all cities]",
+      "[+1 Happiness]"
+    ],
+    "color": [255, 215, 0]
+  },
+  {
+    "name": "Militaristic",
+    "friendBonusUniques": [
+      "New [Land] units start with [15] XP [in all cities]"
+    ],
+    "allyBonusUniques": [
+      "New [Land] units start with [30] XP [in all cities]",
+      "[+15]% Strength <when attacking>"
+    ],
+    "color": [255, 100, 100]
+  }
+]
