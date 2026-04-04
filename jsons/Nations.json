@@ -199,5 +199,225 @@
       "[+20]% Strength <when defending>"
     ],
     "cities": ["Helsinki", "Espoo", "Tampere", "Turku", "Oulu", "Rovaniemi", "Viipuri"]
+  },
+  {
+    "name": "Belgio",
+    "adjective": ["Belga"],
+    "cityStateType": "Cultured",
+    "declaringWar": "La nostra neutralità è stata calpestata. Bruxelles non si piegherà.",
+    "attacked": "State invadendo una terra che desiderava solo la pace.",
+    "defeated": "Il Belgio è occupato, ma il nostro spirito resta libero.",
+    "outerColor": [0, 0, 0],
+    "innerColor": [255, 233, 54],
+    "cities": ["Bruxelles"]
+  },
+  {
+    "name": "Olanda",
+    "adjective": ["Olandese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "L'allagamento dei campi non basterà, dovremo combattere.",
+    "attacked": "Avete portato la guerra nelle nostre città costiere.",
+    "defeated": "Amsterdam è caduta sotto l'ombra dell'invasore.",
+    "outerColor": [174, 28, 40],
+    "innerColor": [255, 255, 255],
+    "cities": ["Amsterdam"]
+  },
+  {
+    "name": "Danimarca",
+    "adjective": ["Danese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Proteggeremo i nostri stretti con ogni mezzo rimasto.",
+    "attacked": "La nostra resistenza sarà silenziosa ma implacabile.",
+    "defeated": "Copenaghen ha ceduto al destino.",
+    "outerColor": [198, 12, 48],
+    "innerColor": [255, 255, 255],
+    "cities": ["Copenaghen"]
+  },
+  {
+    "name": "Grecia",
+    "adjective": ["Greco"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Diciamo 'OXI' alle vostre pretese! La Grecia combatterà.",
+    "attacked": "Le montagne dell'Epiro saranno la vostra tomba.",
+    "defeated": "L'Acropoli vede sventolare una bandiera straniera.",
+    "outerColor": [0, 91, 174],
+    "innerColor": [255, 255, 255],
+    "cities": ["Atene"]
+  },
+  {
+    "name": "Jugoslavia",
+    "adjective": ["Jugoslavo"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "I Balcani non saranno mai un terreno facile per voi.",
+    "attacked": "Ogni villaggio diventerà una fortezza contro di voi.",
+    "defeated": "Belgrado è in fiamme, la resistenza si sposta tra i boschi.",
+    "outerColor": [255, 0, 0],
+    "innerColor": [0, 56, 147],
+    "cities": ["Belgrado"]
+  },
+  {
+    "name": "Romania",
+    "adjective": ["Rumeno"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "I nostri pozzi petroliferi sono chiusi per i nemici del regno.",
+    "attacked": "State minacciando l'integrità dei nostri confini.",
+    "defeated": "Bucarest ha dovuto accettare i termini della sconfitta.",
+    "outerColor": [0, 43, 127],
+    "innerColor": [252, 209, 22],
+    "cities": ["Bucarest"]
+  },
+  {
+    "name": "Bulgaria",
+    "adjective": ["Bulgaro"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "L'esercito dello Zar proteggerà i nostri interessi.",
+    "attacked": "Non permetteremo che la guerra distrugga la nostra nazione.",
+    "defeated": "Sofia deve piegarsi alla forza superiore.",
+    "outerColor": [0, 150, 110],
+    "innerColor": [255, 255, 255],
+    "cities": ["Sofia"]
+  },
+  {
+    "name": "Cecoslovacchia",
+    "adjective": ["Cecoslovacco"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Le nostre fabbriche d'armi ora servono solo la nostra difesa.",
+    "attacked": "Traditi una volta, non ci lasceremo sottomettere di nuovo senza lottare.",
+    "defeated": "Praga è silenziosa, il cuore dell'Europa ha smesso di battere.",
+    "outerColor": [215, 20, 26],
+    "innerColor": [17, 69, 126],
+    "cities": ["Praga"]
+  },
+  {
+    "name": "Austria",
+    "adjective": ["Austriaco"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Vienna non accetta ordini da invasori stranieri.",
+    "attacked": " State violando il cuore della cultura europea.",
+    "defeated": "L'unione forzata è giunta, la nostra indipendenza svanisce.",
+    "outerColor": [0, 0, 0],
+    "innerColor": [237, 28, 36],
+    "cities": ["Vienna"]
+  },
+  {
+    "name": "Portogallo",
+    "adjective": ["Portoghese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "I nostri porti non sono più sicuri per voi.",
+    "attacked": "Difenderemo le nostre coste con ogni mezzo.",
+    "defeated": "Lisbona è caduta sotto il giogo della guerra.",
+    "outerColor": [255, 0, 0],
+    "innerColor": [0, 102, 0],
+    "cities": ["Lisbona"]
+  },
+  {
+    "name": "Irlanda",
+    "adjective": ["Irlandese"],
+    "cityStateType": "Cultured",
+    "declaringWar": "L'Eire sceglie la sua strada. E non è la vostra.",
+    "attacked": "Non avete alcun diritto di sbarcare qui.",
+    "defeated": "Dublino non ha potuto resistere.",
+    "outerColor": [255, 136, 62],
+    "innerColor": [22, 155, 98],
+    "cities": ["Dublino"]
+  },
+  {
+    "name": "Turchia",
+    "adjective": ["Turco"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "I nostri soldati sono pronti. Per la patria!",
+    "attacked": "Risponderemo col fuoco a ogni vostra mossa.",
+    "defeated": "Ankara non è più nostra.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [227, 10, 23],
+    "cities": ["Ankara"]
+  },
+  {
+    "name": "Svizzera",
+    "adjective": ["Svizzero"],
+    "cityStateType": "Mercantile",
+    "declaringWar": "La nostra neutralità è stata violata. Difenderemo ogni passo di montagna.",
+    "attacked": "Avete commesso un errore fatale sottovalutando le nostre difese.",
+    "defeated": "La nostra libertà finisce qui, ma la nostra storia no.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [214, 0, 0],
+    "cities": ["Berna"]
+  },
+  {
+    "name": "Svezia",
+    "adjective": ["Svedese"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Non volevamo questo conflitto, ma non ci tireremo indietro.",
+    "attacked": "La nostra neutralità non era debolezza.",
+    "defeated": "Il Nord cade nel silenzio.",
+    "outerColor": [254, 204, 2],
+    "innerColor": [0, 107, 168],
+    "cities": ["Stoccolma"]
+  },
+  {
+    "name": "Egitto",
+    "adjective": ["Egiziano"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Il Canale di Suez non è più a vostra disposizione.",
+    "attacked": "Le sabbie del deserto inghiottiranno le vostre armate.",
+    "defeated": "Il Cairo è perduta, le sponde del Nilo sono invase.",
+    "outerColor": [0, 0, 0],
+    "innerColor": [192, 144, 0],
+    "cities": ["Il Cairo"]
+  },
+  {
+    "name": "Sudafrica",
+    "adjective": ["Sudafricano"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Il Capo è sbarrato per voi.",
+    "attacked": "La nostra risposta sarà brutale e immediata.",
+    "defeated": "Città del Capo è caduta.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [255, 123, 0],
+    "cities": ["Città del Capo"]
+  },
+  {
+    "name": "Australia",
+    "adjective": ["Australiano"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "I nostri deserti e le nostre coste vi respingeranno.",
+    "attacked": "State portando la guerra dall'altra parte del mondo.",
+    "defeated": "Canberra ha ceduto, l'ultima speranza del Pacifico vacilla.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [0, 0, 139],
+    "cities": ["Canberra"]
+  },
+  {
+    "name": "Canada",
+    "adjective": ["Canadese"],
+    "cityStateType": "Maritime",
+    "declaringWar": "Il Nord Atlantico non è un luogo sicuro per voi.",
+    "attacked": "Abbiamo attraversato l'oceano per fermarvi, ora difendiamo casa nostra.",
+    "defeated": "Ottawa è caduta, ma i nostri soldati combattono ancora all'estero.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [255, 0, 0],
+    "cities": ["Ottawa"]
+  },
+  {
+    "name": "Brasile",
+    "adjective": ["Brasiliano"],
+    "cityStateType": "Cultured",
+    "declaringWar": "Il Brasile non accetta la vostra aggressione nel Sud Atlantico.",
+    "attacked": "I nostri 'Pracinhas' vi mostreranno il valore della nostra terra.",
+    "defeated": "Rio è caduta nelle mani del nemico.",
+    "outerColor": [255, 223, 0],
+    "innerColor": [0, 156, 59],
+    "cities": ["Rio de Janeiro"]
+  },
+  {
+    "name": "Cina",
+    "adjective": ["Cinese"],
+    "cityStateType": "Militaristic",
+    "declaringWar": "Resisteremo uniti contro l'oppressore straniero.",
+    "attacked": "Il territorio cinese sarà un calvario infinito per le vostre truppe.",
+    "defeated": "Nanchino ha sofferto l'insopportabile. La resistenza si ritira.",
+    "outerColor": [255, 222, 0],
+    "innerColor": [238, 28, 37],
+    "cities": ["Chongqing"]
   }
 ]
