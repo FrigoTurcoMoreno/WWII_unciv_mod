@@ -200,6 +200,7 @@
     ],
     "cities": ["Helsinki", "Espoo", "Tampere", "Turku", "Oulu", "Rovaniemi", "Viipuri"]
   },
+  //city states
   {
     "name": "Belgio",
     "adjective": ["Belga"],

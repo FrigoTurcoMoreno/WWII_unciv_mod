@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Nazismo",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Domination": 15, "Scientific": 6 },
+    "uniques": ["[+10]% [Production] [in all cities]"],
+    "policies": [
+      {
+        "name": "Blitzkrieg",
+        "row": 1, "column": 1,
+        "uniques": ["[+1] Movement <for [Land] units>", "[+15]% Strength <when attacking> <for [Armor] units>"]
+      },
+      {
+        "name": "Autarchia Industriale",
+        "row": 1, "column": 3,
+        "uniques": ["[+15]% Production when constructing [Military] units [in all cities]", "[+2 Production] from [Strategic] resources"]
+      },
+      {
+        "name": "Mobilitazione Totale",
+        "row": 2, "column": 2,
+        "requires": ["Blitzkrieg", "Autarchia Industriale"],
+        "uniques": ["[+20]% Production when constructing [Land] units [in all cities]", "Units fight at full strength even when damaged"]
+      },
+      { "name": "Nazismo Complete", "uniques": ["[+25]% Production when constructing [Air] units [in all cities]", "[+15]% Strength <when attacking>"] }
+    ]
+  },
+  {
+    "name": "Comunismo",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Domination": 12, "Scientific": 10 },
+    "uniques": ["[+15]% [Production] [in all cities]"],
+    "policies": [
+      {
+        "name": "Pianificazione Quinquennale",
+        "row": 1, "column": 1,
+        "uniques": ["[+20]% Production when constructing [All] buildings [in all cities]", "[+1 Production] [in all cities]"]
+      },
+      {
+        "name": "Grande Guerra Patriottica",
+        "row": 1, "column": 3,
+        "uniques": ["[+20]% Strength <when fighting in [Friendly Land] tiles>", "[+20]% Strength <when defending>"]
+      },
+      {
+        "name": "Scienza Proletaria",
+        "row": 2, "column": 2,
+        "requires": ["Pianificazione Quinquennale", "Grande Guerra Patriottica"],
+        "uniques": ["[+20]% [Science] [in all cities]", "[+2] Free Technologies"]
+      },
+      { "name": "Comunismo Complete", "uniques": ["[Gold] cost of purchasing [Land] units [-33]%", "[+15]% Production when constructing [Military] units [in all cities]"] }
+    ]
+  },
+  {
+    "name": "Fascismo",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Domination": 10, "Cultural": 10, "Diplomatic": 8 },
+    "uniques": ["[+10]% [Culture] [in all cities]"],
+    "policies": [
+      {
+        "name": "Culto del Duce",
+        "row": 1, "column": 1,
+        "uniques": ["[+15]% [Culture] [in all cities]", "Resting point for Influence with City-States is increased by [15]"]
+      },
+      {
+        "name": "Mare Nostrum",
+        "row": 1, "column": 3,
+        "uniques": ["[+1] Movement <for [Water] units>", "[+2 Gold] [in all coastal cities]"]
+      },
+      {
+        "name": "Corporativismo di Stato",
+        "row": 2, "column": 2,
+        "requires": ["Culto del Duce", "Mare Nostrum"],
+        "uniques": ["[+20]% [Gold] [in all cities]", "Gifts of Gold to City-States generate [+50]% more Influence"]
+      },
+      { "name": "Fascismo Complete", "uniques": ["[+25]% Strength <for [Water] units> <when attacking>", "[+2] Sight <for [Water] units>"] }
+    ]
+  },
+  {
+    "name": "Democrazia",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Diplomatic": 15, "Scientific": 10, "Cultural": 8 },
+    "uniques": ["[+15]% [Gold] [in all cities]"],
+    "policies": [
+      {
+        "name": "Libertà di Espressione",
+        "row": 1, "column": 1,
+        "uniques": ["[+20]% [Culture] [in all cities]", "[+20]% [Science] [in all cities]"]
+      },
+      {
+        "name": "Arsenale della Democrazia",
+        "row": 1, "column": 3,
+        "uniques": ["[+20]% Production when constructing [Military] units [in all cities]", "[+15]% Production when constructing [Air] units [in all cities]"]
+      },
+      {
+        "name": "Lend-Lease Act",
+        "row": 2, "column": 2,
+        "requires": ["Libertà di Espressione", "Arsenale della Democrazia"],
+        "uniques": ["Allied City-States provide [Production] equal to [+25]% of what they produce", "[+4 Gold] from each Trade Route"]
+      },
+      { "name": "Democrazia Complete", "uniques": ["Gifts of Gold to City-States generate [+100]% more Influence", "[+2] Sight <for [All] units>"] }
+    ]
+  },
+  {
+    "name": "Economia di Guerra",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Domination": 12, "Scientific": 6, "Neutral": 5 },
+    "uniques": ["[+10]% [Production] [in all cities]"],
+    "policies": [
+      { "name": "Requisizione Industriale", "row": 1, "column": 1, "uniques": ["[+15]% Production when constructing [Military] units [in all cities]", "[+1 Production] [in all cities]"] },
+      { "name": "Razionamento delle Risorse", "row": 1, "column": 3, "uniques": ["[Gold] cost of purchasing [Military] units [-25]%", "[+2 Gold] [in all cities]"] },
+      { "name": "Produzione di Massa", "row": 2, "column": 2, "requires": ["Requisizione Industriale", "Razionamento delle Risorse"], "uniques": ["[+20]% Production when constructing [Land] units [in all cities]", "[+20]% Production when constructing [Water] units [in all cities]"] },
+      { "name": "Economia di Guerra Complete", "uniques": ["[+25]% Production when constructing [Air] units [in all cities]", "[+10]% [Production] [in all cities]"] }
+    ]
+  },
+  {
+    "name": "Propaganda di Stato",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Cultural": 12, "Diplomatic": 8, "Domination": 6 },
+    "uniques": ["[+10]% [Culture] [in all cities]"],
+    "policies": [
+      { "name": "Censura dei Media", "row": 1, "column": 1, "uniques": ["Enemy Spy effectiveness reduced by [25]%", "[+2 Culture] [in all cities]"] },
+      { "name": "Culto del Leader", "row": 1, "column": 3, "uniques": ["[+15]% [Culture] [in all cities]", "Resting point for Influence with City-States is increased by [10]"] },
+      { "name": "Mobilitazione Psicologica", "row": 2, "column": 2, "requires": ["Censura dei Media", "Culto del Leader"], "uniques": ["[+10]% Strength <when attacking>", "[+3 Culture] [in all cities]"] },
+      { "name": "Propaganda di Stato Complete", "uniques": ["Gifts of Gold to City-States generate [+50]% more Influence", "[+20]% [Culture] [in all cities]"] }
+    ]
+  },
+  {
+    "name": "Dottrina Militare",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Domination": 15, "Scientific": 5 },
+    "uniques": ["[+1] Movement"],
+    "policies": [
+      { "name": "Guerra di Movimento", "row": 1, "column": 1, "uniques": ["[+1] Movement <for [Land] units>", "[+10]% Strength <when attacking>"] },
+      { "name": "Difesa in Profondità", "row": 1, "column": 3, "uniques": ["[+20]% Strength <when defending>", "[+15]% Strength <when fighting in [Friendly Land] tiles>"] },
+      { "name": "Controllo dello Spazio Aereo", "row": 2, "column": 2, "requires": ["Guerra di Movimento", "Difesa in Profondità"], "uniques": ["[+25]% Strength <vs [Air] units>", "New [Air] units start with [20] Experience [in all cities]"] },
+      { "name": "Dottrina Militare Complete", "uniques": ["Units fight at full strength even when damaged", "[+15]% Strength <when attacking>"] }
+    ]
+  },
+  {
+    "name": "Alleanze Strategiche",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Diplomatic": 14, "Cultural": 7 },
+    "uniques": ["[+2 Gold] from each Trade Route"],
+    "policies": [
+      { "name": "Accordi di Mutua Assistenza", "row": 1, "column": 1, "uniques": ["[+50]% Influence gained from [Gold] gifts to City-States", "[+2 Gold] [in all cities]"] },
+      { "name": "Programma Lend-Lease", "row": 1, "column": 3, "uniques": ["[+4 Gold] from each Trade Route", "Allied City-States provide [Production] equal to [+25]% of what they produce"] },
+      { "name": "Fronte Unito", "row": 2, "column": 2, "requires": ["Accordi di Mutua Assistenza", "Programma Lend-Lease"], "uniques": ["City-State territory always counts as friendly territory", "[+15]% Strength <when attacking> <for [Land] units>"] },
+      { "name": "Alleanze Strategiche Complete", "uniques": ["[+20]% [Gold] [in all cities]", "Militaristic City-States grant units [2] times as fast when you are at war"] }
+    ]
+  },
+  {
+    "name": "Ricerca Bellica",
+    "era": "Seconda Guerra Mondiale",
+    "priorities": { "Scientific": 14, "Domination": 8 },
+    "uniques": ["[+10]% [Science] [in all cities]"],
+    "policies": [
+      { "name": "Progetto Manhattan", "row": 1, "column": 1, "uniques": ["[+15]% [Science] [in all cities]", "[+20]% Production when constructing [All] buildings"] },
+      { "name": "Tecnologia Radar e Sonar", "row": 1, "column": 3, "uniques": ["[+2] Sight <for [Air] units>", "[+25]% Strength <vs [Air] units>"] },
+      { "name": "Intelligence Crittografica", "row": 2, "column": 2, "requires": ["Progetto Manhattan", "Tecnologia Radar e Sonar"], "uniques": ["Enemy Spy effectiveness reduced by [33]%", "[+20]% [Science] [in all cities]"] },
+      { "name": "Ricerca Bellica Complete", "uniques": ["[+2] Free Technologies", "Enables construction of Spaceship parts"] }
+    ]
+  }
+]
