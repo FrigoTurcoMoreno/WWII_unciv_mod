@@ -55,7 +55,7 @@
     "range": 1,
     "interceptRange": 6,
     "uniques": [
-      "[+25]% Strength",
+      "[+25]% Strength <when defending>",
       "[+50]% Strength <vs [Air] units>"
     ]
   },
