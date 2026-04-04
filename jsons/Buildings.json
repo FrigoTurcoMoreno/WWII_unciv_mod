@@ -42,7 +42,7 @@
     "cost": 200,
     "production": 4,
     "uniques": [
-      "[Gold] cost of purchasing [Land] units [-20]% [in this city]"
+      "[Gold] cost of purchasing [Land] units [-20]%"
     ],
     "requiredTech": "Industrialization",
     "requiredResource": "Coal"
