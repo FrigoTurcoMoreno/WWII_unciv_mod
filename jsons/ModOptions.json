@@ -1,0 +1,33 @@
+{
+  "isBaseRuleset": false,
+  "nationsToRemove": [
+    "America",
+    "Arabia",
+    "Aztec",
+    "Babylon",
+    "Byzantium",
+    "Carthage",
+    "Celts",
+    "China",
+    "Denmark",
+    "Egypt",
+    "Ethiopia",
+    "Greece",
+    "Huns",
+    "Inca",
+    "India",
+    "Iroquois",
+    "Korea",
+    "Maya",
+    "Mongolia",
+    "Morocco",
+    "Netherlands",
+    "Ottoman",
+    "Persia",
+    "Rome",
+    "Russia",
+    "Siam",
+    "Songhai",
+    "Sweden"
+  ]
+}
