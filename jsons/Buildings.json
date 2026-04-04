@@ -5,7 +5,7 @@
     "uniqueTo": "Germania",
     "cost": 300,
     "production": 5,
-    "uniques": ["[+25]% Production when constructing [Land] units [in all cities connected to capital]"],
+    "uniques": ["[+25]% Production when constructing [Land] units"],
     "requiredTech": "Industrialization",
     "requiredResource": "Coal"
   },
@@ -16,7 +16,7 @@
     "cost": 250,
     "production": 3,
     "gold": 2,
-    "uniques": ["[+15]% Production when constructing [Tank] units [in your cities]"],
+    "uniques": ["[+15]% Production when constructing [Armor] units"],
     "requiredTech": "Industrialization",
     "requiredResource": "Coal"
   },
@@ -25,7 +25,10 @@
     "replaces": "Armory",
     "uniqueTo": "Giappone",
     "cost": 150,
-    "uniques": ["New [Land] units start with [15] XP [in all cities]", "[+10]% Strength for [Land] units"],
+    "uniques": [
+      "New [Land] units start with [15] Experience",
+      "New [Land] units start with the [Shock I] promotion"
+    ],
     "requiredTech": "Steel"
   },
   {
@@ -45,7 +48,7 @@
     "cost": 400,
     "production": 10,
     "isNationalWonder": true,
-    "uniques": ["[+20]% Production in all cities"],
+    "uniques": ["[+20]% [Production] <in all cities>"],
     "requiredBuilding": "Workshop",
     "requiredTech": "Machinery"
   },
@@ -54,7 +57,10 @@
     "replaces": "Military Academy",
     "uniqueTo": "Inghilterra",
     "cost": 300,
-    "uniques": ["[+30]% Strength for [Air] units within [5] tiles", "New [Air] units start with [15] Experience"],
+    "uniques": [
+      "New [Air] units start with [15] Experience",
+      "New [Air] units start with the [Interception I] promotion"
+    ],
     "requiredTech": "Radar"
   },
   {
@@ -63,7 +69,10 @@
     "uniqueTo": "Francia",
     "cost": 150,
     "happiness": 2,
-    "uniques": ["Enemy spy effectiveness reduced by [30]%", "[+10]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>"],
+    "uniques": [
+      "Enemy spy effectiveness reduced by [30]%",
+      "New [Land] units start with the [Drill I] promotion"
+    ],
     "requiredTech": "Banking"
   },
   {
@@ -72,7 +81,7 @@
     "uniqueTo": "Polonia",
     "cost": 200,
     "cityHealth": 30,
-    "uniques": ["[+1] Production from [Plains] tiles"],
+    "uniques": ["[+1] [Production] from [Plains] tiles"],
     "requiredTech": "Chivalry"
   },
   {
@@ -97,7 +106,7 @@
     "uniqueTo": "Finlandia",
     "cost": 350,
     "cityHealth": 50,
-    "uniques": ["[+20]% Strength for [Ranged] units when defending"],
+    "uniques": ["New [Ranged] units start with the [Accuracy I] promotion"],
     "requiredTech": "Rifling"
   }
 ]
